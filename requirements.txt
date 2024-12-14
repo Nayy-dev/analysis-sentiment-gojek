@@ -3,3 +3,4 @@ pandas
 matplotlib
 langdetect
 Github
+aiohttp
