@@ -1,7 +1,5 @@
 streamlit
 pandas
-matplotlib
 langdetect
-Github
-aiohttp<4
-
+matplotlib
+PyGithub
