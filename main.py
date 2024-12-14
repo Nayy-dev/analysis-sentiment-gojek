@@ -6,6 +6,7 @@ from datetime import datetime
 import re
 import logging
 import os
+import aiohttp
 from github import Github
 
 # Konfigurasi logging
