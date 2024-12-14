@@ -7,7 +7,7 @@ import re
 import os
 import logging
 from github import Github
-pip install --upgrade pip
+python -m pip install --upgrade pip
 pip install aiohttp --no-binary aiohttp
 
 # Konfigurasi logging
