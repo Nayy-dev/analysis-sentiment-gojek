@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 import re
 from github import Github
-streamlit run main.py
+
 import logging
 
 # Konfigurasi logging
