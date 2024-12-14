@@ -1,13 +1,12 @@
 import streamlit as st
 import pandas as pd
-import os
 from langdetect import detect
 import matplotlib.pyplot as plt
 from datetime import datetime
 import re
-from github import Github
-
 import logging
+import os
+from github import Github
 
 # Konfigurasi logging
 logging.basicConfig(
