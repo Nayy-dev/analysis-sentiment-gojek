@@ -6,7 +6,7 @@ from datetime import datetime
 import re
 import logging
 import os
-import aiohttp
+from aiohttp import http
 from github import Github
 python -m pip install --upgrade pip
 
