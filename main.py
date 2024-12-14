@@ -7,6 +7,7 @@ import re
 import os
 import logging
 from github import Github
+pip install --upgrade pip
 
 # Konfigurasi logging
 logging.basicConfig(
