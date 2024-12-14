@@ -3,4 +3,5 @@ pandas
 matplotlib
 langdetect
 Github
-aiohttp
+aiohttp<4
+
