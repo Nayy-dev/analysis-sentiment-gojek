@@ -42,8 +42,11 @@ def analyze_sentiment_id(text):
 
 def detect_language(text):
     try:
+        if not text.strip():
+            return "unknown"
         return detect(text)
-    except:
+    except Exception as e:
+        logging.warning(f"Deteksi bahasa gagal: {e}")
         return "unknown"
 
 def log_analysis(user_input, sentiment, score, lang):
